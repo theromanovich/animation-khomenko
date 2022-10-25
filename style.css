@@ -1,0 +1,136 @@
+body {
+    background-image: url(pattern.png);
+
+}
+.content {
+    margin-top: 200px;
+    padding: 50px;
+    display: flex;
+    margin: 0 auto;
+    background-color: gray;
+    border-radius: 25%;
+    width: 100px;
+
+    align-items: center;
+    flex-direction: column;
+}
+.content-height {
+    margin: 0 auto;
+ width: 20px;
+ height: 59vh;
+ background-color: #ccc;
+
+}
+.content-down {
+    width: 200px;
+    height: 35px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    background-color: rgb(128, 123, 123);
+    margin: 0 auto;
+}
+.animation-circle1 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    position: relative;
+    left: 0;
+
+    animation-name: aquamarine-circle1;
+   animation-iteration-count: 1;
+   animation-timing-function: ease;
+
+ animation-duration: 3s;
+ 
+}
+
+.animation-circle2 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    position: relative;
+    left: 0;
+    margin-top: 10px;
+    animation-iteration-count: infinite;
+    animation-name: aquamarine-circle2;
+    animation-iteration-count: 2;
+    animation-timing-function: ease;
+ animation-delay: 3s;
+  animation-duration: 3s;
+
+}
+.animation-circle3 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    position: relative;
+    left: 0;
+    margin-top: 10px;
+
+    animation-name: aquamarine-circle3;
+
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+ animation-delay: 9s;
+  animation-duration: 6s;
+
+}
+
+@keyframes aquamarine-circle1 {
+    0% {
+      background-color: red;
+    }
+    100% {
+       background-color: red;
+    }
+}
+
+@keyframes aquamarine-circle2 {
+    0% {
+      background-color: white;
+    }
+    100% {
+       background-color: yellow;
+    }
+}
+@keyframes aquamarine-circle3 {
+    0% {
+      background-color: white;
+    }
+    10% {
+        background-color: #99ff99;
+    }
+    20% {
+        background-color: #99ff99;
+    }
+    30% {
+        background-color: #99ff99;
+    }
+    40% {
+        background-color: #99ff99;
+    }
+    50% {
+        background-color: #99ff99;
+    }
+    60% {
+        background-color: #99ff99;
+    }
+    70% {
+        background-color: #99ff99;
+    }
+    80% {
+        background-color: #99ff99;
+    }
+    90% {
+        background-color: #99ff99;
+    }
+    90% {
+        background-color: #99ff99;
+    }
+    100% {
+       background-color: #99ff99;
+    }
+}
